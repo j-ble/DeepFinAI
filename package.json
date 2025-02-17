@@ -1,0 +1,23 @@
+{
+  "name": "ai-learning-assistant",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^9.x.x",
+    "@stripe/stripe-js": "^1.x.x",
+    "dotenv": "^10.x.x"
+  },
+  "devDependencies": {
+    "webpack": "^5.x.x",
+    "webpack-cli": "^4.x.x",
+    "copy-webpack-plugin": "^9.x.x",
+    "dotenv-webpack": "^7.x.x",
+    "@babel/core": "^7.x.x",
+    "@babel/preset-env": "^7.x.x",
+    "babel-loader": "^8.x.x"
+  }
+} 

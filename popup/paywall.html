@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subscribe to Continue</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4285f4;
+      margin: 20px 0;
+    }
+    .features {
+      text-align: left;
+      margin: 20px 0;
+    }
+    .features li {
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <h2>Unlock Full Access</h2>
+  <div class="price">$9.99/month</div>
+  <div class="features">
+    <ul>
+      <li>Unlimited assignments</li>
+      <li>Advanced AI assistance</li>
+      <li>Priority support</li>
+      <li>Progress tracking</li>
+    </ul>
+  </div>
+  <button id="subscribeButton">Subscribe Now</button>
+  <button id="cancelButton">Cancel</button>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="paywall.js"></script>
+</body>
+</html> 
