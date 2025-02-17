@@ -1,4 +1,4 @@
-# AI Learning Assistant Chrome Extension
+# DeepFinAI
 
 A Chrome extension that uses Firebase Auth, Deepseek AI, and Stripe to automate learning tasks.
 
@@ -300,4 +300,4 @@ If you encounter issues:
 For more detailed setup instructions and troubleshooting, refer to the documentation of each service:
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [Stripe Documentation](https://stripe.com/docs)
-- [Deepseek AI Documentation](https://docs.deepseek.ai) 
+- [Deepseek AI Documentation](https://docs.deepseek.ai)
